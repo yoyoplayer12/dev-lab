@@ -50,8 +50,6 @@ recognition.onresult = function (event) {
   // if the word is start, start the audio
   if(recognizedSpeech === "open google") {
     window.open("https://www.google.com/");
-    console.log("google");
-    console.log(recognizedSpeech);
   }
 
 };
