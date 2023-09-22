@@ -51,6 +51,15 @@ recognition.onresult = function (event) {
   if(recognizedSpeech === "open google") {
     window.open("https://www.google.com/");
   }
+  else if (recognizedSpeech === "open youtube") {
+    window.open("https://www.youtube.com/");
+  }
+  else if (recognizedSpeech === "open instagram") {
+    window.open("https://www.instagram.com/");
+  }
+  else if (recognizedSpeech === "open facebook") {
+    window.open("https://www.facebook.com/");
+  }
 
 };
 
