@@ -46,6 +46,14 @@ recognition.onresult = function (event) {
 
   // update DOM
   document.querySelector("#commando").innerHTML = recognizedSpeech;
+
+  // if the word is start, start the audio
+  if(recognizedSpeech === "open google") {
+    window.open("https://www.google.com/");
+    console.log("google");
+    console.log(recognizedSpeech);
+  }
+
 };
 
 // the function that makes images
